@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="state">42509476c32602105a76f61d05013139</highlighted_value>
+        <highlighted_value_config display_value="Teste">9e401476c32602105a76f61d0501319a</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 01:19:41</sys_created_on>
+        <sys_id>3e601476c32602105a76f61d050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_3e601476c32602105a76f61d050131c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 01:19:41</sys_updated_on>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>
