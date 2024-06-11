@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="now-pro-homework-2 Search Profile">d866c6dc553e021024036631a3fafebf</profile>
+        <search_source display_value="Tasks - Incidents">13bf8fe1531201107f03ddeeff7b1274</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:46:02</sys_created_on>
+        <sys_id>ad664adc473e0210089e64f2e16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now-pro-homework-2 Search Profile.Tasks - Incidents</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_ad664adc473e0210089e64f2e16d4368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:46:02</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

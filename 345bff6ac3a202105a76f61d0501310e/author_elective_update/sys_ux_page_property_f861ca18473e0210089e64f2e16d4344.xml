@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="NowPro+ HomeWork2">28618a18473e0210089e64f2e16d438e</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:24:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f861ca18473e0210089e64f2e16d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_ux_page_property_f861ca18473e0210089e64f2e16d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:24:09</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1426002_now_pro.28618a18473e0210089e64f2e16d438e.root.chrome_header</unique_name>
+        <value>{"privatePage":{"userPrefsEnabled":false,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=f861ca18473e0210089e64f2e16d4344"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sys_ux_page_property_f861ca18473e0210089e64f2e16d4344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="NowPro+ HomeWork2">28618a18473e0210089e64f2e16d438e</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-11 01:24:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>f861ca18473e0210089e64f2e16d4344</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sys_ux_page_property_f861ca18473e0210089e64f2e16d4344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 01:24:09</sys_updated_on><type>json</type><unique_name>x_1426002_now_pro.28618a18473e0210089e64f2e16d438e.root.chrome_header</unique_name><value>{"privatePage":{"userPrefsEnabled":false,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=f861ca18473e0210089e64f2e16d4344"/></record_update>]]></payload>
+        <payload_hash>-553435421</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:24:09</sys_created_on>
+        <sys_id>3461ca18473e0210089e64f2e16d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19004e5377d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:24:09</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>7861ca18f43e021082ca35b6ece68846</update_guid>
+        <update_guid_history>7861ca18f43e021082ca35b6ece68846:-553435421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:44:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2903c0c6c7e64a70a7ad1be66cbbed90</sys_id>
+        <sys_metadata>f861ca18473e0210089e64f2e16d4344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_f861ca18473e0210089e64f2e16d4344</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_f861ca18473e0210089e64f2e16d4344">3461ca18473e0210089e64f2e16d4347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:44:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

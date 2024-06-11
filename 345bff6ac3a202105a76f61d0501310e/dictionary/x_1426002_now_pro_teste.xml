@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9c54a9c473e0210089e64f2e16d4392" label="teste" max_length="40" name="x_1426002_now_pro_teste" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Assunto" max_length="40" name="assunto" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DT_INI" max_length="40" name="dt_ini" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="\&quot;ID_AssuntoRi\&quot;" max_length="40" name="id_assuntori" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reg_Vig" max_length="40" name="reg_vig" type="string"/>
+    </element>
+</database>

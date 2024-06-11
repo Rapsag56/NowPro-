@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Now Pro+ Homework 2 Ribbon Config</description>
+        <name>Now Pro+ Homework 2 Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:45:59</sys_created_on>
+        <sys_id>5066c6dc103e021088cf08cb6db38eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Pro+ Homework 2 Ribbon Config</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_5066c6dc103e021088cf08cb6db38eae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:45:59</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

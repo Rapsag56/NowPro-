@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>98618a18473e0210089e64f2e16d438b</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>nowpro-homework2</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:24:07</sys_created_on>
+        <sys_id>28618a18473e0210089e64f2e16d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowPro+ HomeWork2</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_ux_page_registry_28618a18473e0210089e64f2e16d438e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:24:07</sys_updated_on>
+        <title>NowPro+ HomeWork2</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sys_ux_page_registry_28618a18473e0210089e64f2e16d438e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>98618a18473e0210089e64f2e16d438b</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>nowpro-homework2</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-11 01:24:07</sys_created_on><sys_id>28618a18473e0210089e64f2e16d438e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NowPro+ HomeWork2</sys_name><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sys_ux_page_registry_28618a18473e0210089e64f2e16d438e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 01:24:07</sys_updated_on><title>NowPro+ HomeWork2</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1154801013</payload_hash>
+        <record_name>NowPro+ HomeWork2</record_name>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:24:07</sys_created_on>
+        <sys_id>e4618a18473e0210089e64f2e16d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19004e530aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:24:07</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>2c618a181e3e0210e1c82fd3eb887190</update_guid>
+        <update_guid_history>2c618a181e3e0210e1c82fd3eb887190:1154801013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:45:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>20aaa18a813c4c1a8d1e6d1ba35c3c61</sys_id>
+        <sys_metadata>28618a18473e0210089e64f2e16d438e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowPro+ HomeWork2</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_28618a18473e0210089e64f2e16d438e</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_28618a18473e0210089e64f2e16d438e">e4618a18473e0210089e64f2e16d4391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:45:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
