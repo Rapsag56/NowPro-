@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1426002_now_pro.UtilsNowPro</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>UtilsNowPro</name>
+        <script><![CDATA[var UtilsNowPro = Class.create();
+UtilsNowPro.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+
+    buscarCep: function() {
+        var cep = this.getParameter("sysparm_cep");
+		gs.info(cep);
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_1426002_now_pro.buscacep2', 'Default GET');
+            r.setStringParameterNoEscape('cep', cep);
+
+            // Executa a requisição
+            var response = r.execute();
+
+            // Obtém o corpo da resposta e o status HTTP
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+
+			if(httpStatus != 200){
+				return true;
+			} else {
+				return responseBody;
+			}
+        
+           // gs.info(JSON.stringify(aux)); // Converte o objeto JSON de volta para string para exibição no log
+        } catch (ex) {
+            var message = ex.message;
+            gs.error('Erro: ' + message); // Loga o erro caso ocorra
+        }
+
+
+    },
+
+    type: 'UtilsNowPro'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 00:26:58</sys_created_on>
+        <sys_id>230617ee47f70210089e64f2e16d439e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>UtilsNowPro</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_script_include_230617ee47f70210089e64f2e16d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 00:55:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

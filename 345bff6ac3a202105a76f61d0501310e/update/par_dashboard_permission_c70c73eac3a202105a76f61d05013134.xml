@@ -5,7 +5,6 @@
         <can_write>false</can_write>
         <dashboard display_value="Now Pro+">fd0cffaa8aa2021031d4eba2300db9e0</dashboard>
         <group/>
-        <owner>false</owner>
         <role display_value="x_1426002_now_pro.admin" name="x_1426002_now_pro.admin">705bff6ac3a202105a76f61d05013116</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -20,4 +20,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-05 23:50:42</sys_updated_on>
     </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=170c73eac3a202105a76f61d050131af"/>
 </record_update>
