@@ -23,7 +23,7 @@
         return;
     }
     var cep = g_form.getValue('cep');
-    alert(cep);
+    //alert(cep);
     var buscaCep = new GlideAjax("UtilsNowPro");
     buscaCep.addParam('sysparm_name', 'buscarCep');
     buscaCep.addParam('sysparm_cep', cep);
@@ -33,7 +33,7 @@
 
         var answer = response.responseXML.documentElement.getAttribute("answer");
         //  alert(answer);
-        if (answer == true) {
+        if (answer === 'true') {
             g_form.addErrorMessage("CEP inválido");
         } else {
             var info = JSON.parse(answer);
@@ -42,6 +42,7 @@
             g_form.setValue("bairro", info.bairro);
             g_form.setValue("cidade", info.localidade);
             g_form.setValue("estado", info.uf);
+			g_form.addInfoMessage("CEP válido");
 
         }
 
@@ -55,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83651bae47f70210089e64f2e16d4379</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>OnChange Cep</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
@@ -63,7 +64,7 @@
         <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
         <sys_update_name>catalog_script_client_83651bae47f70210089e64f2e16d4379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 01:14:46</sys_updated_on>
+        <sys_updated_on>2024-08-10 23:14:59</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

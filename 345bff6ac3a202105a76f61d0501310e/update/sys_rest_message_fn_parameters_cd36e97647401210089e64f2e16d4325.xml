@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>moeda_2</name>
+        <rest_message_function display_value="Default GET">ec1621f247401210089e64f2e16d4381</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 21:08:48</sys_created_on>
+        <sys_id>cd36e97647401210089e64f2e16d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moeda_2</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_cd36e97647401210089e64f2e16d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 21:08:48</sys_updated_on>
+        <type>string</type>
+        <value>BRL</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

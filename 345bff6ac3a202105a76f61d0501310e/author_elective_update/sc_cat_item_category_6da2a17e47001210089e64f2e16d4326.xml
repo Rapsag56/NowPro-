@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Converção de Moedas">ee826d3e47001210089e64f2e16d43ca</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 20:53:07</sys_created_on>
+        <sys_id>6da2a17e47001210089e64f2e16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Converção de Moedas</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sc_cat_item_category_6da2a17e47001210089e64f2e16d4326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 20:53:07</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sc_cat_item_category_6da2a17e47001210089e64f2e16d4326</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Converção de Moedas">ee826d3e47001210089e64f2e16d43ca</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-19 20:53:07</sys_created_on><sys_id>6da2a17e47001210089e64f2e16d4326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Converção de Moedas</sys_name><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sc_cat_item_category_6da2a17e47001210089e64f2e16d4326</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-19 20:53:07</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-2139395036</payload_hash>
+        <record_name>Services.Converção de Moedas</record_name>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 20:53:07</sys_created_on>
+        <sys_id>29a2a17e47001210089e64f2e16d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916c6a3e820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 20:53:07</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6da2a17ed30012103fcece4795cbee29</update_guid>
+        <update_guid_history>6da2a17ed30012103fcece4795cbee29:-2139395036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Converção de Moedas">d6e3693247401210089e64f2e16d430a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 20:58:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>72289a813f9444068e3a3580f9915d51</sys_id>
+        <sys_metadata>6da2a17e47001210089e64f2e16d4326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Converção de Moedas</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6da2a17e47001210089e64f2e16d4326</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6da2a17e47001210089e64f2e16d4326">29a2a17e47001210089e64f2e16d432a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 20:58:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
