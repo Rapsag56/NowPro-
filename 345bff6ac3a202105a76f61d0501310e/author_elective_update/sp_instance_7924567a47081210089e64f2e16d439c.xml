@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c024123a47081210089e64f2e16d43fc</sp_column>
+        <sp_widget display_value="Conversor de Moedas">64f21ab647081210089e64f2e16d430c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:29:25</sys_created_on>
+        <sys_id>7924567a47081210089e64f2e16d439c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sp_instance_7924567a47081210089e64f2e16d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:46:15</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=7924567a47081210089e64f2e16d439c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sp_instance_7924567a47081210089e64f2e16d439c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">c024123a47081210089e64f2e16d43fc</sp_column><sp_widget display_value="Conversor de Moedas">64f21ab647081210089e64f2e16d430c</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-20 00:29:25</sys_created_on><sys_id>7924567a47081210089e64f2e16d439c</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sp_instance_7924567a47081210089e64f2e16d439c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-20 00:46:15</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=7924567a47081210089e64f2e16d439c"/></record_update>]]></payload>
+        <payload_hash>726482134</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:46:15</sys_created_on>
+        <sys_id>d8085e3647481210089e64f2e16d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916d3fac880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:46:15</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>90085e363148121085a77fd8ea06cb1f</update_guid>
+        <update_guid_history>90085e363148121085a77fd8ea06cb1f:726482134,f6f7d2364748121088cb8bb70e410845:-400894411,b924567a6b081210ce6a3d93921cae9e:726482134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5af8da7647481210089e64f2e16d43d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:50:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1042b67b99ca4ed8995160ab94987f10</sys_id>
+        <sys_metadata>7924567a47081210089e64f2e16d439c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sp_instance_7924567a47081210089e64f2e16d439c</sys_update_name>
+        <sys_update_version display_value="sp_instance_7924567a47081210089e64f2e16d439c">d8085e3647481210089e64f2e16d431f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:50:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

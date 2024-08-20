@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+  var c = this;
+
+  c.showAlert = function() {
+    var moeda1 = c.moeda1; 
+    var moeda2 = c.moeda2; 
+    var valorInput = c.valor;
+
+    // Verifique no console os valores antes de enviar ao servidor
+    console.log("Moeda 1:", moeda1);
+    console.log("Moeda 2:", moeda2);
+    console.log("Valor:", valorInput);
+
+    // Passar os dados para o Server Script e obter a resposta
+    $scope.server.get({
+      moeda1: moeda1,
+      moeda2: moeda2,
+      valor: valorInput
+    }).then(function(answer) {
+			  var info = JSON.parse(answer);
+				alert("Resposta do servidor:", info);
+      
+    });
+  };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {
+  background-color: #4894C4;
+  padding: 20px;
+	widtgh: 200px;
+}
+
+.button {
+  text-align: center; /* Corrigido: align-text não existe */
+}
+
+.form-group {
+  color: black; /* Corrigido: text-color não existe, use color */
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>conversor_de_moedas</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Conversor de Moedas</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function () {
+    // Verificar se 'input' está definido e se contém as propriedades necessárias
+    if (input && input.moeda1 && input.moeda2 && input.valor) {
+        var moeda1 = input.moeda1;
+        var moeda2 = input.moeda2;
+        var valor = input.valor;
+
+        //gs.info("Moeda 1: " + moeda1);
+       // gs.info("Moeda 2: " + moeda2);
+      //  gs.info("Valor: " + valor);
+
+        // Instanciar o Script Include
+        var utilsNowPro = new UtilsNowPro();
+        var answer = utilsNowPro.buscaCotacao(moeda1, moeda2);
+        gs.info("resposta = "+answer);
+
+        if (answer == true) {
+            gs.info("deu erro")
+            data.mensagem = "Erro ao buscar a cotação.";
+        } else {
+
+           data.answer = answer;
+        }
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:24:34</sys_created_on>
+        <sys_id>64f21ab647081210089e64f2e16d430c</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>Conversor de Moedas</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sp_widget_64f21ab647081210089e64f2e16d430c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 03:47:41</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  <form id="conversionForm">
+    <div class="form-group">
+      <label for="moeda1">Moeda 1</label>
+      <select class="form-control" ng-model="c.moeda1" id="moeda1">
+      <!--  <option value="NONE">NONE</option>-->
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="BRL">BRL</option>
+        <!-- Adicione outras moedas conforme necessário -->
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="moeda2">Moeda 2</label>
+      <select class="form-control" ng-model="c.moeda2" id="moeda2">
+       <!-- <option value="NONE">NONE</option> -->
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="BRL">BRL</option>
+        <!-- Adicione outras moedas conforme necessário -->
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="valor">Valor</label>
+      <input type="number" ng-model="c.valor" class="form-control" id="valor" placeholder="Insira o valor">
+    </div>
+
+    <div class="form-group">
+      <label for="valorConvertido">Valor Convertido</label>
+      <input type="text" class="form-control" id="valorConvertido" readonly>
+    </div>
+
+    <div class="text-center">
+      <button type="button" class="btn btn-primary" ng-click="c.showAlert()">Converter</button>
+    </div>
+  </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

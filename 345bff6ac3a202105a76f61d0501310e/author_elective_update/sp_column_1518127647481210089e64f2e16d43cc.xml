@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">5518d23647481210089e64f2e16d4348</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:46:34</sys_created_on>
+        <sys_id>1518127647481210089e64f2e16d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sp_column_1518127647481210089e64f2e16d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:46:34</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sp_column_1518127647481210089e64f2e16d43cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">5518d23647481210089e64f2e16d4348</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-20 00:46:34</sys_created_on><sys_id>1518127647481210089e64f2e16d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sp_column_1518127647481210089e64f2e16d43cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-20 00:46:34</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1299390039</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:46:35</sys_created_on>
+        <sys_id>5118127647481210089e64f2e16d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916d3ffa360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:46:35</sys_updated_on>
+        <type>Column</type>
+        <update_guid>951812767d48121036d2a306fab153cd</update_guid>
+        <update_guid_history>951812767d48121036d2a306fab153cd:1299390039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">bf985e7647481210089e64f2e16d4359</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:48:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>02e7710164a2446a80086f25b88ead29</sys_id>
+        <sys_metadata>1518127647481210089e64f2e16d43cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sp_column_1518127647481210089e64f2e16d43cc</sys_update_name>
+        <sys_update_version display_value="sp_column_1518127647481210089e64f2e16d43cc">5118127647481210089e64f2e16d43ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:48:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>true</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>cotaçoes - Container 1</name>
+        <order>1</order>
+        <semantic_tag>main</semantic_tag>
+        <sp_page display_value="cotacoes">726f423e47c41210089e64f2e16d4398</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:43:28</sys_created_on>
+        <sys_id>f3575eb247481210089e64f2e16d43f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cotaçoes - Container 1</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_update_name>sp_container_f3575eb247481210089e64f2e16d43f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:44:21</sys_updated_on>
+        <title>COT</title>
+        <width>container-fluid</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</application>
+        <file_path/>
+        <instance_id>68e4278d1b7ab114c84543f4bd4bcbac</instance_id>
+        <instance_name>dev226323</instance_name>
+        <name>sp_container_f3575eb247481210089e64f2e16d43f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>true</bootstrap_alt><class_name/><container_class_name/><name>cotaçoes - Container 1</name><order>1</order><semantic_tag>main</semantic_tag><sp_page display_value="cotacoes">726f423e47c41210089e64f2e16d4398</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-20 00:43:28</sys_created_on><sys_id>f3575eb247481210089e64f2e16d43f7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>cotaçoes - Container 1</sys_name><sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package><sys_policy/><sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope><sys_update_name>sp_container_f3575eb247481210089e64f2e16d43f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-20 00:44:21</sys_updated_on><title>COT</title><width>container-fluid</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1510535391</payload_hash>
+        <record_name>cotaçoes - Container 1</record_name>
+        <reverted_from/>
+        <source>1fc3505b47a60210089e64f2e16d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:44:21</sys_created_on>
+        <sys_id>649796f247481210089e64f2e16d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916d3def7f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:44:21</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2c9796f29b481210d9c9358cc4101530</update_guid>
+        <update_guid_history>2c9796f29b481210d9c9358cc4101530:-1510535391,287792f2324812106a771d7504dbf253:939613664,bb575eb2e0481210fb0de3c4fb472af8:-583618627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cotaçoes - Container 1">c6f7da3647481210089e64f2e16d43b1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 00:46:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>a31f082991f246009f422f7dc0a07900</sys_id>
+        <sys_metadata>f3575eb247481210089e64f2e16d43f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cotaçoes - Container 1</sys_name>
+        <sys_package display_value="Now Pro+" source="x_1426002_now_pro">345bff6ac3a202105a76f61d0501310e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro+">345bff6ac3a202105a76f61d0501310e</sys_scope>
+        <sys_scope_delete display_value="">5601cb55f9294886a0d5e3be19e98fa4</sys_scope_delete>
+        <sys_update_name>sp_container_f3575eb247481210089e64f2e16d43f7</sys_update_name>
+        <sys_update_version display_value="sp_container_f3575eb247481210089e64f2e16d43f7">649796f247481210089e64f2e16d4331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 00:46:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
